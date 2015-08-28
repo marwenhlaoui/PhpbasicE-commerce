@@ -16,7 +16,7 @@ languge : fr
 ##### Installation 
 
 ```git
-https://github.com/marwenhlaoui/ecommerce.git myweb
+$git clone https://github.com/marwenhlaoui/ecommerce.git myweb
 ```
 then go to your database (mysql)
 and add new database "mywebdb"
