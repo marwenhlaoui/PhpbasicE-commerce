@@ -1,4 +1,4 @@
-      <?php 
+﻿      <?php 
           $title="Espace d'inscription";
           include('include/head.php'); 
       ?> 

@@ -548,3 +548,18 @@ article .cont p{
 	background-color: rgba(0, 132, 180, 0.09);
 }
 .menulist a i{ }
+
+.sql_pg{
+    margin: 80px 30%;
+    border: 1px solid #eaeaea;
+    padding: 20px 5%;
+    background-color: rgba(255, 255, 255, 0.36);
+    text-align: center;
+    color: #757575;
+}
+.lab_chek input{
+    border: transparent;
+    box-shadow: none;
+    float: left;
+    width: 20px;
+}

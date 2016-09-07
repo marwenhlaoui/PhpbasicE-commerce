@@ -1,4 +1,4 @@
-			<?php 
+﻿			<?php 
 					$title="Listes des produits";
 					include('include/head.php'); 
 					 

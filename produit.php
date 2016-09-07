@@ -1,4 +1,4 @@
-			<?php 
+﻿			<?php 
                      include('config.php');  
                     if (isset($_GET['num'])) {
                         $idproduit = $_GET['num'];

@@ -1,7 +1,7 @@
 ﻿<?php
 //On demarre les sessions
 session_start();
-
+$connect = true;
 /******************************************************
 ----------------Configuration Obligatoire--------------
 Veuillez modifier les variables ci-dessous pour que l'
@@ -9,17 +9,23 @@ espace membre puisse fonctionner correctement.
 ******************************************************/
 
 //On se connecte a la base de donnee
-$base= mysqli_connect("localhost", "root", "", "mywebdb");
+$fileconf = "app/app.config";
+if (file_exists($fileconf)) {
+	$env = json_decode(file_get_contents($fileconf)); 
+	$base= mysqli_connect($env->host, $env->root, $env->pass, $env->db);
+}else{
+    $connect = false;
+}
  
 /* Vérification de la connexion */
 if (mysqli_connect_errno()) {
-    die("Échec de la connexion :<br>".mysqli_connect_error());
-    exit();
+	$connect = false;
 }
+ 
 
-//Email du webmaster
-$mail_webmaster = 'example@example.com';
-
+if ($connect == false) { 
+    header('location:mysql.php');
+}
 //Adresse du dossier de la top site
 $url_root = 'http://localhost/myweb/';
 

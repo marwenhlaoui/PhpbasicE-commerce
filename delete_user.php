@@ -1,4 +1,4 @@
-			<?php 
+﻿			<?php 
                      include('config.php');  
                       if (isset($_SESSION['user'])) {
                         if ($_SESSION['user']['ROLE'] == "1") { 

@@ -1,0 +1,4 @@
+INSERT INTO `abonne` (`ID`, `FIRST_NAME`, `LAST_NAME`, `LOGIN`, `PASSWORD`, `E_MAIL`, `COUNTRY`, `POSTAL_CODE`, `PHONE`, `ADDRESS`, `NIVEAU`, `NV`, `DATE_INSC`, `ROLE`, `AVATAR`) VALUES
+(11, 'Hlaoui', 'Marwen', 'admin', '202cb962ac59075b964b07152d234b70', 'marwenhlaoui@email.com', 'Tunisia', '5121', '24772710', 'rue enasr - mahdia', 'lycÃ©', 'Bac', '2014-12-11 01:29:11', 1, 'default/img/profil/marwenpic.jpg'),
+(13, 'Med', 'user', 'med', '202cb962ac59075b964b07152d234b70', 'med@email.com', 'Egypte', '', '', '', 'colÃ¨ge', '8Ã¨me annÃ©e', '2014-12-13 08:24:25', NULL, 'default/img/img_not_found.jpg'),
+(14, 'test', 'user', 'test', '202cb962ac59075b964b07152d234b70', 'test@email.com', 'Arabie', '5001', '00250984754', 'MAKA', 'Primaire', '5Ã¨me annÃ©e', '2014-12-13 08:26:52', NULL, 'default/img/img_not_found.jpg');

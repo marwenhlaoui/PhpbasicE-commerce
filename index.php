@@ -1,5 +1,5 @@
 ﻿			<?php 
-					$title="Espace membre";
+					$title="Php basic E-commerce ";
 					include('include/head.php'); 
 					 
 			?>

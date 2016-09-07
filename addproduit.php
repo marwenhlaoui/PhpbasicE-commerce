@@ -1,4 +1,4 @@
-			<?php 
+﻿			<?php 
 					$title="Ajouter des produits";
 					include('include/head.php'); 
 					 

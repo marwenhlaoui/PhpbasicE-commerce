@@ -1,4 +1,4 @@
-      <?php 
+﻿      <?php 
           $title="Espace Administration";
           include('include/head.php'); 
       ?>
