@@ -61,7 +61,7 @@ Open your project folder (project-name) with your browser :
 				 Database Name : db_project
 	if you want to test the project with fake data, just check the checkbox and click `Install`.
 
-### [Demo](app.phpbasice-commerce.marwenhlaoui.me)
+### [Demo](http://app.phpbasice-commerce.marwenhlaoui.me/)
 
 ![Php basic E-commerce login.png](https://s25.postimg.org/o9g52bxr3/Php_basic_E_commerce_login.png) 
 
