@@ -1,14 +1,13 @@
 
 
 
-# Php basic E-commerce 
-![Php basic E-commerce top screen.png](https://s25.postimg.org/ypw94nwrj/Php_basic_E_commerce_top_screen.png)
+# Php basic E-commerce (A Fantastic E-commerce website)
+![Php basic E-commerce top screen.png]
  
 
 ### Introdection
 This simple project has basic HTML and CSS with dynamic functionality using PHP and mysqli, This open source code can allow users to add, edit and remove multiple custom fields or style if it is necessary .
-
-![Php basic E-commerce screen.png](https://s25.postimg.org/vuj5xssrj/Php_basic_E_commerce_screen.png) 
+(https://s25.postimg.org/vuj5xssrj/Php_basic_E_commerce_screen.png) 
 
 In this project we can : 
 
